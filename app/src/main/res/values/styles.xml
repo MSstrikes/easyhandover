@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BaseTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- ActionBar 背景为空 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- ActionBar 覆盖在内容布局上 -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="BaseTheme">
+        <item name="android:windowBackground">@color/car_state_background</item>
+    </style>
+
 </resources>
